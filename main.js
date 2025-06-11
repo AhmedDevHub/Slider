@@ -34,7 +34,7 @@ $(document).ready(function () {
     navigateSlider("next");
   });
 
-  // Prev
+  // Prev btn
   $(".prev-btn").click(function () {
     navigateSlider("prev");
   });
