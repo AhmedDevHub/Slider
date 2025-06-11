@@ -17,10 +17,10 @@ $(document).ready(function () {
     var clickedIndex = $(this).index();
     $(".slider-container img").eq(clickedIndex).addClass("active");
 
-    // Update
+    // Update Counter
     updateCounter(clickedIndex + 1, images.length);
 
-    // display
+    // display slider
     $(".overlay").css("display", "flex");
   });
 
