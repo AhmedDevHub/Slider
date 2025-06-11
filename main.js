@@ -29,7 +29,7 @@ $(document).ready(function () {
     $(".overlay").hide();
   });
 
-  // Next
+  // Next btn
   $(".next-btn").click(function () {
     navigateSlider("next");
   });
